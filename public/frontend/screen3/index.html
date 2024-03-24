@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  </head>
+  <body>
+
+    
+ 
+       <!-- heading start -->
+       <div class="container">
+        <div style="margin-top: 20px;" class="row">
+          <div class="col-lg-4">
+            <div> <p style="font-weight: bold;"><i style="font-size:20px;" class="bi bi-arrow-left-circle"></i> Back</p></div>
+          </div>
+
+          <div class="col-lg-4">
+            <div style="display: flex;justify-content:center;padding:10px"><h2 style="font-weight: bold;">Shop Details</h2></div>
+         </div>
+
+         <div class="col-lg-4">
+          
+         </div>
+          
+
+        </div>
+
+       </div>
+       <!-- heading end -->
+
+
+       <!-- card 1 -->
+       
+       <div style="display: flex;justify-content:center" class="container">
+       
+        <div  class="cardwidth"> 
+       <div style="background:#f1f7ff;border-radius:20px" class="card">
+        <div class="row">
+
+        <div class="col-lg-5">
+        <img style="padding-left: 20px;padding-top:20px;padding-bottom:20px;padding-right:20px" class="card-img-top" src="./assets/Rectangle 5950.png" alt="Card image cap">
+        </div>
+        
+        <div class="col-lg-7">
+        <div class="card-body">
+          <h4 class="card-title">Universal Shop</h4>
+          <p class="card-text"> Jay Patil</p>
+          <p class="card-text"> jay@gmail.com</p>
+          <p class="card-text"> +91 095678656122</p>
+          <p class="card-text"> RHS Colony, Maharastra ta city Lomercity... </p>
+           
+        </div>
+        </div>
+
+
+      </div>
+      </div>
+       
+       </div>
+      </div>
+
+      <!-- card 2 -->
+
+     <div style="margin-top: 100px;" class="container">
+       <h2 style="font-weight: bold;">Our Products</h2>
+       <h4  >Select what products you want to buy from this shop & get receipt for it.</h4>
+     </div>
+
+     <!-- card list start  -->
+       
+     <div class="container ">
+      <div class="row">
+      
+        <!-- card 1 -->
+       <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+        <div class="card" style="width: auto;border-radius:10px">
+        
+          <div class="row">
+            <div class="col-lg-7">
+              <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+              <p style="color: #00182FBD;
+              padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+              <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+
+            </div>
+  
+            <div class="col-lg-5">
+              <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+            </div>
+
+             <!-- second row start -->
+             <div style="margin-bottom: 20px;" class="row">
+
+              <div class="col-lg-7">
+                <div class="col-lg-12">
+                  <div class="input-group">
+              <span class="input-group-btn">
+                  <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                    <span class="glyphicon glyphicon-minus"></span>
+                  </button>
+              </span>
+              <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+              <span class="input-group-btn">
+                  <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                      <span class="glyphicon glyphicon-plus"></span>
+                  </button>
+              </span>
+                </div>
+              </div>
+              </div>
+              
+
+              <div class="col-lg-5">
+                <button  style="margin-left: 15px;" style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+              </div>
+
+             </div>
+             <!-- second roe end -->
+  
+          </div>
+  
+        </div>
+       </div>
+       <!-- card 1 end -->
+
+         <!-- card 2 start -->
+         <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+          <div class="card" style="width: auto;border-radius:10px">
+          
+            <div class="row">
+              <div class="col-lg-7">
+                <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+                <p style="color: #00182FBD;
+                padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+  
+              </div>
+    
+              <div class="col-lg-5">
+                <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+              </div>
+  
+               <!-- second row start -->
+               <div style="margin-bottom: 20px;" class="row">
+  
+                <div class="col-lg-7">
+                  <div class="col-lg-12">
+                    <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                </span>
+                <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                </span>
+                  </div>
+                </div>
+                </div>
+                
+  
+                <div class="col-lg-5">
+                  <button  style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+                </div>
+  
+               </div>
+               <!-- second roe end -->
+    
+            </div>
+    
+          </div>
+         </div>
+         <!-- card 2 end -->
+
+          <!-- card 3 start -->
+          <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+            <div class="card" style="width: auto;border-radius:10px">
+            
+              <div class="row">
+                <div class="col-lg-7">
+                  <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+                  <p style="color: #00182FBD;
+                  padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                  <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+    
+                </div>
+      
+                <div class="col-lg-5">
+                  <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+                </div>
+    
+                 <!-- second row start -->
+                 <div style="margin-bottom: 20px;" class="row">
+    
+                  <div class="col-lg-7">
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                  <span class="input-group-btn">
+                      <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                        <span class="glyphicon glyphicon-minus"></span>
+                      </button>
+                  </span>
+                  <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+                  <span class="input-group-btn">
+                      <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                          <span class="glyphicon glyphicon-plus"></span>
+                      </button>
+                  </span>
+                    </div>
+                  </div>
+                  </div>
+                  
+    
+                  <div class="col-lg-5">
+                    <button  style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+                  </div>
+    
+                 </div>
+                 <!-- second roe end -->
+      
+              </div>
+      
+            </div>
+           </div>
+           <!-- card 3 end -->
+
+            <!-- card 4 start -->
+         <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+          <div class="card" style="width: auto;border-radius:10px">
+          
+            <div class="row">
+              <div class="col-lg-7">
+                <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+                <p style="color: #00182FBD;
+                padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+  
+              </div>
+    
+              <div class="col-lg-5">
+                <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+              </div>
+  
+               <!-- second row start -->
+               <div style="margin-bottom: 20px;" class="row">
+  
+                <div class="col-lg-7">
+                  <div class="col-lg-12">
+                    <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                </span>
+                <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                </span>
+                  </div>
+                </div>
+                </div>
+                
+  
+                <div class="col-lg-5">
+                  <button  style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+                </div>
+  
+               </div>
+               <!-- second roe end -->
+    
+            </div>
+    
+          </div>
+         </div>
+         <!-- card 4 end -->
+
+          <!-- card 5 start -->
+          <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+            <div class="card" style="width: auto;border-radius:10px">
+            
+              <div class="row">
+                <div class="col-lg-7">
+                  <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+                  <p style="color: #00182FBD;
+                  padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                  <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+    
+                </div>
+      
+                <div class="col-lg-5">
+                  <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+                </div>
+    
+                 <!-- second row start -->
+                 <div style="margin-bottom: 20px;" class="row">
+    
+                  <div class="col-lg-7">
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                  <span class="input-group-btn">
+                      <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                        <span class="glyphicon glyphicon-minus"></span>
+                      </button>
+                  </span>
+                  <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+                  <span class="input-group-btn">
+                      <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                          <span class="glyphicon glyphicon-plus"></span>
+                      </button>
+                  </span>
+                    </div>
+                  </div>
+                  </div>
+                  
+    
+                  <div class="col-lg-5">
+                    <button  style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+                  </div>
+    
+                 </div>
+                 <!-- second roe end -->
+      
+              </div>
+      
+            </div>
+           </div>
+           <!-- card 5 end -->
+
+            <!-- card 6 start -->
+         <div style="margin-top: 20px;margin-bottom:10px" class="col-lg-4">
+          <div class="card" style="width: auto;border-radius:10px">
+          
+            <div class="row">
+              <div class="col-lg-7">
+                <h6 style="padding-top: 10px;padding-right:5px;padding-left:10px;font-weight:bold;font-size:14px" class="card-title">TRE’s Decoration Lamps</h6>
+                <p style="color: #00182FBD;
+                padding-top: 0px;padding-right:5px;padding-left:10px;font-size:12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                <p><span style="font-weight: bold;padding-top: 0px;padding-right:5px;padding-left:10px;font-size:13px">Quantity availabe : </span><span style="font-size: 12px;">60 pieces</span></p>
+  
+              </div>
+    
+              <div class="col-lg-5">
+                <img style="padding-top: 20px;"  class="card-img-top" src="./assets/Rectangle 5924.png" alt="Card image cap">
+              </div>
+  
+               <!-- second row start -->
+               <div style="margin-bottom: 20px;" class="row">
+  
+                <div class="col-lg-7">
+                  <div class="col-lg-12">
+                    <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-left-minus btn   btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                </span>
+                <input style="background-color: #e0e9f5 ;" type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" style="border: 3px solid #e0e9f5;" class="quantity-right-plus btn   btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                </span>
+                  </div>
+                </div>
+                </div>
+                
+  
+                <div class="col-lg-5">
+                  <button  style="margin-left: 15px;" id="cartButton"class="btncart" onclick="toggleCart()">Add to Cart</button>
+                </div>
+  
+               </div>
+               <!-- second roe end -->
+    
+            </div>
+    
+          </div>
+         </div>
+         <!-- card 6 end -->
+         
+       
+
+      </div>
+     </div>
+
+
+     <!-- card list end -->
+
+        
+
+       <!-- footer start  -->
+     
+       <footer class="footer-section">
+        <div class="container">
+             
+                
+            
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="./assets/logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p style="color:#a6bad5">Hikayet Arief give you discounts on products to buy from your nearest store</p>
+                            </div>
+                            <div class="footer-social-icon">
+                               
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+
+                        <ul style="list-style-type: none;  ">
+                          <li class="footerlist" style="color:#a6bad5">Company</li>
+                          <li class="footerlist">About</li>
+                          <li class="footerlist">Shop Categories</li>
+                          <li class="footerlist">Register Your Shop</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                      <ul style="list-style-type: none;  ">
+                        <li class="footerlist" style="color:#a6bad5">Services</li>
+                        <li class="footerlist">Customer Support </li>
+                        <li class="footerlist">Languages</li>
+                        <li class="footerlist">Uploads Receipts</li>
+                      </ul>
+                  </div>
+
+                  <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                    <ul style="list-style-type: none;  ">
+                      <li class="footerlist" style="color:#a6bad5">Other</li>
+                      <li class="footerlist">Privacy Policy</li>
+                      <li class="footerlist">Terms & Conditions</li>
+                      <li class="footerlist1">Log Out <i style="font-size: 19px;margin:6px"  class="bi bi-box-arrow-right"></i></li>
+                    </ul>
+                </div>
+
+                  <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                    <ul style="list-style-type: none;  ">
+                      <li class="footerlist" style="color:#a6bad5">To know more follow us on Social Media</li>
+                      <li class="footerlist1"> <i style="font-size: 23px;margin:10px" class="bi bi-twitter"></i> <i style="font-size: 23px;margin:10px" class="bi bi-facebook"></i> <i style="font-size: 23px;margin:10px" class="bi bi-instagram"></i></li>
+                       
+                    </ul>
+                </div>
+               
+                </div>
+                
+               
+            </div>
+           
+        </div>
+        
+       
+         
+    </footer>
+  </div>
+  <div class="container-fluid" style="background-color: #0b1c3f;margin-top:0.5px; ">
+  
+  <p style="color:white;text-align:center;padding:10px;margin-bottom:0px">copyright 2023, all right reserved</p>
+  </div>
+ 
+
+       <!-- footer end  -->
+
+     <!-- javascript for increament and decrement and add to cart button -->
+     <script>
+      $(document).ready(function(){
+
+        var quantitiy=0;
+           $('.quantity-right-plus').click(function(e){
+                
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+                
+                // If is not undefined
+                    
+                    $('#quantity').val(quantity + 1);
+        
+                  
+                    // Increment
+                
+            });
+        
+             $('.quantity-left-minus').click(function(e){
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+                
+                // If is not undefined
+              
+                    // Increment
+                    if(quantity>0){
+                    $('#quantity').val(quantity - 1);
+                    }
+            });
+            
+        });
+
+       //add to cart js
+       var buttonState = false;
+
+       function toggleCart() {
+         var button = document.getElementById("cartButton");
+         
+         if (buttonState) {
+           button.innerHTML = "Add to Cart";
+           button.classList.remove("btncart2");
+           button.classList.add("btncart");
+         } else {
+           button.innerHTML = "Added";
+           button.classList.remove("btncart");
+           button.classList.add("btncart2");
+         }
+         
+         buttonState = !buttonState;
+       }
+     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
