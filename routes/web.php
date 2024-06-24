@@ -39,7 +39,7 @@ Route::get('/', function () {
 });
 
 // Frontend
-Route::get('/Stores', [FrontEndController::class, 'listShops/{id?}'])->name('Stores')->middleware('shop.owner');
+Route::get('/Stores/{id?}', [FrontEndController::class, 'listShops'])->name('Stores')->middleware('shop.owner');
 Route::get('/view-store/{id}', [FrontEndController::class, 'viewStore'])->name('view-store')->middleware('auth.customer');
 
 //forget password

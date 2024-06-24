@@ -417,7 +417,7 @@
                     <p class="card-text"><span class="shopch">Contact :</span> <span class="shopcp">{{ $shp->mobile
                             }}</span></p>
 
-<a class="btn btn-primary" id="addresmodel" href='https://www.google.com/maps/search/?api=1&query={{$shp->address}}' target="_blank">address</a>
+{{-- <a class="btn btn-primary" id="addresmodel" href='https://www.google.com/maps/search/?api=1&query={{$shp->address}}' target="_blank">address</a> --}}
 
 
                     @auth('customer')
